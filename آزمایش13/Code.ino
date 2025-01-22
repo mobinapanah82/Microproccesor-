@@ -14,10 +14,10 @@ void loop() {
 
 lcd.setCursor(2, 0); // تنظیم مکان نما در ستون 2 سطر 0
 
-lcd.print("Hello vahid");
+lcd.print("Hello ");
 
 lcd.setCursor(2, 1); // تنظیم مکان نما در ستون 2 سطر 1
 
-lcd.print("Hello zakiye");
+lcd.print("Hello 👋🏻");
 
 }
