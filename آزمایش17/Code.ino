@@ -27,9 +27,7 @@ void setup(){
 
 void loop() {
 
-  for (int i = 0; i < 10; i++) {
-   
-   // نمایش عدد i بر روی سون گمنت
+  for (int i = 0; i < 10; i++)// نمایش عدد i بر روی سون گمنت
     displayDigit(i);
     delay(1000);  // نمایش عدد به مدت 1 ثانیه
   }
@@ -41,10 +39,7 @@ void displayDigit(int num) {
  
    // بررسی وضعیت هر پین و تنظیم آن بر اساس باینری عدد
     if (digits[num] & (1 << i)) {
-      digitalWrite(segmentPins[i],
-     
- 
-  HIGH); // روشن کردن پین
+      digitalWrite(segmentPins[i],HIGH); // روشن کردن پین
     } else {
       digitalWrite(segmentPins[i], LOW);  // خاموش کردن پین
     }
