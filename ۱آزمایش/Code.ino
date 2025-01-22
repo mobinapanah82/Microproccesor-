@@ -4,4 +4,7 @@ void setup() {
 
 pinMode(led, OUTPUT); // تنظیم پین LED به عنوان خروجی }
 
-void loop() { digitalWrite(led, HIGH); // روشن کردن LED delay(2000); // مکث به مدت 2 ثانیه digitalWrite(led, LOW); // خاموش کردن LED delay(2000); // مکث به مدت 2 ثانیه }
+void loop() { digitalWrite(led, HIGH); // روشن کردن 
+LED delay(2000); // مکث به مدت 2 ثانیه 
+digitalWrite(led, LOW); // خاموش کردن
+LED delay(2000); // مکث به مدت 2 ثانیه }
