@@ -1,4 +1,5 @@
-led2 = 13; // تعریف پین LED دوم
+int led1 = 9; // تعریف پین LED اول 
+int led2 = 13; // تعریف پین LED دوم
 
 void setup() {
 
@@ -12,7 +13,8 @@ digitalWrite(led1, HIGH); // روشن کردن LED اول
 
 digitalWrite(led2, HIGH); // روشن کردن LED دوم
 
-delay(5000); // مکث به مدت 5 ثانیه digitalWrite(led1, LOW); // خاموش کردن LED اول
+delay(5000); // مکث به مدت 5 ثانیه 
+digitalWrite(led1, LOW); // خاموش کردن LED اول
 
 digitalWrite(led2, LOW); // خاموش کردن LED دوم
 
